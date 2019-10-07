@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Kelvys B.</Authors>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>i18ntool</ToolCommandName>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <Copyright>Kelvys B.</Copyright>
+    <PackageProjectUrl>https://github.com/Kelvysb/i18nTool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Kelvysb/i18nTool</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Internationalization, i18n, locales, localization, globalization, tool, translate, Google API</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Command line tool for translate i18n json files using Google translate API.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BI18n" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
